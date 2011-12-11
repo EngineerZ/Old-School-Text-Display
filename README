@@ -1,0 +1,23 @@
+ 
+The files in this repository are for an Open Source Hardware PCB to support 
+four DL1414 alphanumeric LED display modeules, yielding a 16-character 
+display.  The four modules are controlled by an I2C expander module making 
+it compatiple with many popular microcontroller platforms.
+
+This repository contains the following files:
+
+display-i2c.sch     - Eagle schematic file
+display-i2c.brd     - Eagle board file
+display-i2c-sch.png - Schematic image
+display-i2c-brd.png - Board image
+display-i2c-grb.tgz - Compressed (gzip) tar archive of gerber files
+display-i2c.ino     - Sample Arduino sketch to drive display
+
+Copyright (C) 2011 Paul J. Zawada
+
+Feel free to modify, share, incorporate, or otherwise use this design 
+for anything you want as long as you attribute the source.
+
+This hardware design comes with no warranty and is not guaranteed to be 
+fit for any particular purpose.
+
